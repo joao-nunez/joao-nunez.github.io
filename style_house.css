@@ -1,0 +1,314 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #140d1f; 
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+  }
+
+  .header-class {
+    top: 2%;
+    left: 70%;
+    position: absolute; 
+  }
+
+  .background-content-class {
+    padding: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .background-content-class-2 {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #content-box-1 {
+    margin: 5px;
+    padding: 10px;
+    background-color: azure;
+    border-radius: 5px;
+    width: 1100px;
+    height: 500px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+  }
+
+  #description-inside2 {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 1000;
+    padding-left: 700px;
+  }
+
+  #image-inside1 {
+    background-color: #000000;
+    height: 400px;
+    width: 650px;
+    margin-left: 25px;
+    background-image: url(https://www.plantapronta.com.br/projetos/129/01.jpg);
+  }
+
+  .text-name-content{
+    top: 80%;
+    padding-top: 20px;
+  }
+  
+.button1 {
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+  }
+  
+  .button1 {
+    --border-right: 6px;
+    --text-stroke-color: rgba(255,255,255,0.6);
+    --animation-color: #c710f0;
+    --fs-size: 2em;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+  }
+  
+  .hover-text1 {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+  }
+ 
+  .button1:hover .hover-text1 {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color))
+  }
+
+  .button2 {
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+  }
+  
+  .button2 {
+    --border-right: 6px;
+    --text-stroke-color: rgba(255,255,255,0.6);
+    --animation-color: #c710f0;
+    --fs-size: 2em;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+  }
+ 
+  .hover-text2 {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+  }
+  
+  .button2:hover .hover-text2 {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color))
+  }
+
+  .footer-class {
+    width: 100%;
+    height: 150px;
+    background-color: #2d0e3488;
+    border-top: 2px solid;
+    border-color: #c710f0;
+  }
+
+  #button-home {
+    --b: 3px;
+     /* border thickness */
+    --s: .45em;
+   /* size of the corner */
+    --color: rgba(255,255,255,0.6);
+    font-weight: bold;
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background: conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+      var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 16px;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  #button-home:hover,
+  #button-home:focus-visible {
+    --_p: 0px;
+    outline-color: #ffffff;
+    outline-offset: .05em;
+  }
+  
+  #button-home:active {
+    background: #ffffff;
+    color: #000000;
+  }
+
+  #button-about-us {
+    --b: 3px;
+     /* border thickness */
+    --s: .45em;
+   /* size of the corner */
+    --color:rgba(255,255,255,0.6);
+    font-weight: bold;
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background: conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+      var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 16px;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  #button-about-us:hover,
+  #button-about-us:focus-visible {
+    --_p: 0px;
+    outline-color: #ffffff;
+    outline-offset: .05em;
+  }
+  
+  #button-about-us:active {
+    background: #ffffff;
+    color: #000000;
+  }
+
+  #button-log-in {
+    --b: 3px;
+     /* border thickness */
+    --s: .45em;
+   /* size of the corner */
+    --color: rgb(226, 226, 226, 0.6);
+    font-weight: bold;
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background: conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+      var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 16px;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  #button-log-in:hover,
+  #button-log-in:focus-visible {
+    --_p: 0px;
+    outline-color: #ffffff;
+    outline-offset: .05em;
+  }
+  
+  #button-log-in:active {
+    background: #ffffff;
+    color: #000000;
+  }
+
+  .button-purschase {
+    --color: #00A97F;
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+    left: 75%;
+    top: 0%;
+   }
+   
+   .button-purschase::before, .button-purschase::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+   }
+   
+   .button-purschase::before {
+    top: -1em;
+    left: -1em;
+   }
+   
+   .button-purschase::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+   }
+   
+   .button-purschase:hover::before, .button-purschase:hover::after {
+    height: 410px;
+    width: 410px;
+   }
+   
+   .button-purschase:hover {
+    color: rgb(10, 25, 30);
+   }
+   
+   .button-purschase:active {
+    filter: brightness(.8);
+   }
+   
+   #copyright-text {
+    text-align: center;
+  }
